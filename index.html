@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="asset/bootstrap-logo-24.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>My First Bootstrap Project</title>
+</head>
+<body>
+    <!-- <h1>Santhosh Kumar</h1> -->
+    <div class="row bg-primary text-center">
+            <div class="col pt-2 text-light">
+                <p>there's is a newer version of Bootstrap</p>
+                <!-- <p>https://getbootstrap.com/docs/4.3/examples/</p> -->
+            </div>
+        </div>
+
+    <div class="sticky-top">       
+        <div class="row bg-dark ">
+            <div class="col-12 col-md-4 col-lg-9  pt-4 mx-2">
+                <ul class="list-inline">
+                  <h3>   <li class="list-inline-item"><a class="text-decoration-none" href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" class="text-light" viewBox="0 0 612 612" role="img" focusable="false"><title>Bootstrap</title><path fill="currentColor" d="M510 8a94.3 94.3 0 0 1 94 94v408a94.3 94.3 0 0 1-94 94H102a94.3 94.3 0 0 1-94-94V102a94.3 94.3 0 0 1 94-94h408m0-8H102C45.9 0 0 45.9 0 102v408c0 56.1 45.9 102 102 102h408c56.1 0 102-45.9 102-102V102C612 45.9 566.1 0 510 0z"></path><path fill="currentColor" d="M196.77 471.5V154.43h124.15c54.27 0 91 31.64 91 79.1 0 33-24.17 63.72-54.71 69.21v1.76c43.07 5.49 70.75 35.82 70.75 78 0 55.81-40 89-107.45 89zm39.55-180.4h63.28c46.8 0 72.29-18.68 72.29-53 0-31.42-21.53-48.78-60-48.78h-75.57zm78.22 145.46c47.68 0 72.73-19.34 72.73-56s-25.93-55.37-76.46-55.37h-74.49v111.4z"></path></svg></a></li>
+                   <li class="list-inline-item"><a class="text-decoration-none" href="#home">Home</a></li>
+                    <li class="list-inline-item"><a class="text-decoration-none" href="">Documentation</a></li>
+                    <li class="list-inline-item"><a class="text-decoration-none" href="#example">Example</a></li>
+                    <li class="list-inline-item"><a class="text-decoration-none" href="">Themes</a></li>
+                    <li class="list-inline-item"><a class="text-decoration-none" href="">Expo</a></li>
+                    <li class="list-inline-item"><a class="text-decoration-none" href="">Blog</a></li></h4>
+                </ul>
+            </div>
+            <div class="col-1 col-sm-5   col-md text-start   text-primary">
+                <ul class="list-inline pt-4 d-flex justify-content-around">
+                    <h3 class="list-inline-item dropdown-toggle" data-bs-toggle="dropdown">v4.3</h3>
+                    <div class=" dropdown-menu">
+                    <li class="dropdown-item">Latest (v4.3x)</li>
+                    <li  class=" dropdown-item">v4.2.1</li>
+                    <li class=""> <hr class="dropdown-divider"></li>
+                    <li class="dropdown-item">v3.4.1</li>
+                    <li class="dropdown-item">v3.3.7</li>
+                    <li class="dropdown-item">v2.3.2</li>
+                    <li class=""> <hr class="dropdown-divider"></li>
+                    <li class="dropdown-item">All version</li>
+                    </div>
+                
+
+
+                    <li class="list-inline-item"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" style="fill: white;transform: msFilter"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2z"></path></svg></li>
+                    <li class="list-inline-item"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" style="fill: white;transform: msFilter"><path d="M19.633 7.997c.013.175.013.349.013.523 0 5.325-4.053 11.461-11.46 11.461-2.282 0-4.402-.661-6.186-1.809.324.037.636.05.973.05a8.07 8.07 0 0 0 5.001-1.721 4.036 4.036 0 0 1-3.767-2.793c.249.037.499.062.761.062.361 0 .724-.05 1.061-.137a4.027 4.027 0 0 1-3.23-3.953v-.05c.537.299 1.16.486 1.82.511a4.022 4.022 0 0 1-1.796-3.354c0-.748.199-1.434.548-2.032a11.457 11.457 0 0 0 8.306 4.215c-.062-.3-.1-.611-.1-.923a4.026 4.026 0 0 1 4.028-4.028c1.16 0 2.207.486 2.943 1.272a7.957 7.957 0 0 0 2.556-.973 4.02 4.02 0 0 1-1.771 2.22 8.073 8.073 0 0 0 2.319-.624 8.645 8.645 0 0 1-2.019 2.083z"></path></svg></li>
+                    <li class="list-inline-item"><svg class="spinner-border" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" fill-rule="evenodd" class="navbar-nav-svg" viewBox="0 0 40 41" role="img" focusable="false"><title>Open Collective</title><path fill-opacity=".4" d="M32.8 21c0 2.4-.8 4.9-2 6.9l5.1 5.1c2.5-3.4 4.1-7.6 4.1-12 0-4.6-1.6-8.8-4-12.2L30.7 14c1.2 2 2 4.3 2 7z"></path><path d="M20 33.7a12.8 12.8 0 0 1 0-25.6c2.6 0 5 .7 7 2.1L32 5a20 20 0 1 0 .1 31.9l-5-5.2a13 13 0 0 1-7 2z"></path></svg></li>
+                    <button  type="button" class="text-warning  btn-lg rounded bg-dark border-warning">Download</button>
+                </ul>
+            </div>
+        </div>
+    </div>
+        
+    <div class="container pt-5 ">
+    </div>
+        <div class="row mt-5 " id="example">
+            <div class="col-7 mt-5 mx-5">
+                <h1 class="display-3 ">Examples</h1>
+                <h2>Quickly get a project started with any of our examples ranging <br> from 
+                    using parts of the framework to custom components and <br> layouts.</h2>
+
+                    <a href="https://github.com/twbs/bootstrap/archive/v4.3.1.zip" 
+                    class="btn mt-3 btn-lg btn-bd-primary border-primary" onclick="ga('send', 'event', 'Examples', 'Hero', 'Download');">
+                          Download source code</a>
+
+            </div>
+            <div class="col-6 col-sm-6 col-lg mt-5 mx-5   mx-5 text-center ">
+                <div class="card mt-5">
+                    <div class="row  rounded ">
+                        <div class="col-4  "><img class="rounded" src="image.png" height="130px" alt=""></div>
+                        <div class="col-3  col-lg  text-center px-5 mt-3">
+                            <p class="mx">Redesign the way you jam with FigJam AI. ads via Carbon</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <div class="container-fluid px-5 pt-5">
+    <div class="row mt-5 ">
+        <h1 class="pt-5" >Custom components</h1>
+        <p>Brand new components and templates to help folks quickly get started with Bootstrap and demonstrate best practices for adding onto the framework.</p>
+
+        <div class="row">
+            <div class="col-12 col-sm-4 col-md-3 mr-2">
+                    <img class="img-fliud rounded w-100 h-50" src="asset/album.png" alt="">
+                        <h1>Album</h1>
+                        <h5>Simple one-page template for photo galleries, portfolios, and more.</h5>
+            </div>
+            <div class="col-12 col-sm-4 col-md-3 ml-2">
+                <img class="img-fliud w-100 h-50 rounded" src="asset/pricing.png" alt="">
+                <h1>Pricing</h1>
+                <p>Example pricing page built with Cards and featuring a custom header and footer. </p>
+            </div>
+            <div class="col-12 col-sm-4 col-md-3">
+                <img class="img-fliud w-100 h-50 rounded" src="asset/checkout.png" alt="">
+                <h1>Checkout</h1>
+                <p>Custom checkout form showing our form components and their validation features.</p>
+            </div>
+            <div class="col-12 col-sm-4 col-md-3 rounded">
+                <img class="img-fliud w-100 h-50" src="asset/product.png" alt="">
+                <h1>Product</h1>
+                <p>Lean product-focused marketing page with extensive grid and image work.</p>
+            </div>
+            <div class="col-12 col-sm-3 col-md-3 rounded">
+                <img class="img-fliud w-100 h-50" src="asset/cover.png" alt="">
+                <h1>Cover</h1>
+                <p>A one-page template for building simple and beautiful home pages.</p>
+            </div>
+            <div class="col-12 col-sm-4 col-md-3">
+                <img class="img-fliud w-100 h-50 rounded" src="asset/carousel.png" alt="">
+                <h1>Carousel</h1>
+                <p>Customize the navbar and carousel, then add some new components.</p>
+            </div>
+            <div class="col-12 col-sm-4 col-md-4 col-3 rounded">
+                <img class="img-fliud w-100 h-50" src="asset/blog.png" alt="">
+                <h1>Blog</h1>
+                <p>magazine like blog template with header, navigation, featured content.</p>
+            </div>
+            <div class="col-12 col-sm-4 col-md-4 col-3">
+                <img class="img-fliud w-100 h-50 rounded" src="asset/dashboard.png" alt="">
+                <h1>Dashboard</h1>
+                <p>Basic admin dashboard shell with fixed sidebar and navbar.</p>
+            </div>
+            <div class="col-12 col-sm-4 col-md-4 col-3 rounded">
+                <img class="img-fliud w-100 h-50" src="asset/sign-in.png" alt="">
+                <h1>Sign-in</h1>
+                <p>Custom form layout and design for a simple sign in form.</p>
+            </div>
+            <div class="col-12 col-sm-3 col-3">
+                <img class="img-fliud w-100 h-50 rounded" src="asset/sticky-footer.png" alt="">
+                <h1>Sticky footer</h1>
+                <p>Attach a footer to the bottom of the viewport when page content is short.</p>
+            </div>
+            <div class="col-12 col-sm-3 col-3">
+                <img class="img-fliud w-100 h-50 rounded" src="asset/sticky-footer-navbar.png" alt="">
+                <h1>Sticky footer navbar</h1>
+                <p>Attach a footer to the bottom of the viewport with a fixed top navbar.</p>
+            </div>
+        </div>
+    </div> 
+    <div class="container-fluid px-5 pt-5 py-5 ">
+        <h1>Framework</h1>
+          <p> Examples that focus on implementing uses of built-in components provided by Bootstrap.</p> 
+          <div class="row">
+            <div class="col-12 col-pt-5 col-sm-4 col-lg-3 col-md-3 ">
+                <img class="img-fliud h-50 w-100 rounded" src="asset/starter-template.png" alt="">
+                <h1>Starter template</h1>
+                <p>Nothing but the basics: compiled CSS and JavaScript.</p>
+            </div>
+            <div class="col-12 col-sm-4 col-md-3">
+                <img class="img-fliud h-50 w-100 rounded" src="asset/grid.png" alt="">
+                <h1>Grid</h1>
+                <p>Multiple examples of grid layouts with all four tiers, nesting, and more.</p>
+            </div>
+            <div class="col-12 col-sm-4 col-md-3">
+                <img class="img-fliud h-40   w-100 rounded" src="asset/jumbotron.png" alt="">
+                <h1>Jumbotron</h1>
+                <p>Build around the jumbotron with a navbar and some basic grid columns.</p>
+            </div>
+          </div>
+    </div>   
+    </div>
+    <!-- Navbar -->
+    <div class="container-fluid px-5 pt-5">
+        <h1>Navbars</h1>
+          <p> Taking the default navbar component and showing how it can be moved, placed, and extended.</p> 
+          <div class="row">
+            <div class="col-12 col-sm-4 col-md-3 ">
+                <img class="img-fliud h-50 w-100 rounded" src="asset/navbars.png" alt="">
+                <h1>Navbars</h1>
+                <p>Demonstration of all responsive and container options for the navbar.</p>
+            </div>
+            <div class="col-12 col-sm-4 col-md-3">
+                <img class="img-fliud h-50 w-100 rounded" src="asset/navbar-static.png" alt="">
+                <h1>Navbar static</h1>
+                <p>Single navbar example of a static top navbar along with some additional content.</p>
+            </div>
+            <div class="col-12 col-sm-4 col-md-3">
+                <img class="img-fliud h-50 w-100 rounded" src="asset/navbar-fixed.png" alt="">
+                <h1>Navbar fixed</h1>
+                <p> Single navbar example with a fixed top navbar along with some additional content.</p>
+            </div>
+            <div class="col-12 col-sm-4 col-md-3">
+                <img class="img-fliud h-50 w-100 rounded" src="asset/navbar-bottom.png" alt="">
+                <h1>Navbar bottom</h1>
+                <p>Single navbar example with a bottom navbar along with some additional content.</p>
+            </div>
+          </div>
+    </div>   
+    <div class="container-fluid px-5 pt-5">
+        <h1> Experiments</h1>
+          <p>Examples that focus on future-friendly features or techniques.</p> 
+          <div class="row">
+            <div class="col-12 col-sm-4 col-md-3 ">
+                <img class="img-fliud h-50 w-100 rounded" src="asset/floating-labels.png" alt="">
+                <h1>Floating labels</h1>
+                <p>Beautifully simple forms with floating labels over your inputs.</p>
+            </div>
+            <div class="col-12 col-sm-4 col-md-3">
+                <img class="img-fliud h-50 w-100 rounded" src="asset/offcanvas.png" alt="">
+                <h1>Offcanvas</h1>
+                <p>turn your expandable navbar into a sliding offcanvas menu.</p>
+            </div>
+     </div>
+     <div class="container-fluid px-3">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-4">
+                <ul class="list-inline ">
+                    <a href=""><li class="list-inline-item text-dark">GitHub </li></a>
+                    <a href=""><li class="list-inline-item text-dark">Twitter </li></a>
+                    <a href=""><li class="list-inline-item text-dark">Examples </li></a>
+                    <a href=""><li class="list-inline-item text-dark">About</li></a>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-4 col-md">
+                <p>Designed and built with all the love in the world by the Bootstrap team  with the help of our contributors. <br>
+                    Currently v4.3.1. Code licensed MIT, docs CC BY 3.0.</p>
+            </div>
+        </div>
+     </div>
+    </div>
+</body>
+</html>
